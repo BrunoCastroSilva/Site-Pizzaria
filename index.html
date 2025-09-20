@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Pizza - Pizzaria</title>
 </head>
+
 <body>
-    
-    <header> 
+
+    <header>
         <div>
             <a href="#">La Pizza</a>
             <nav>
@@ -17,31 +19,119 @@
             </nav>
         </div>
     </header>
-    
+
     <main>
-        <section id="Sobre"> 
+        <section id="Sobre">
             <div>
                 <div>
                     <h1>La Pizza - Melhor Pizza de Ribeirão Pires</h1>
                     <p>Bem vidnos ao nosso forno magico!</p>
                 </div>
                 <figure>
-                    <img src="img/pizza.jpg" 
-                    width="600" 
-                    height="420" 
-                    alt="A deliciosa pizza do la pizza"/>
+                    <img src="img/pizza.jpg" width="600" height="420" alt="A deliciosa pizza do la pizza" />
                 </figure>
             </div>
         </section>
-        
+
         <section id="Cardapio">
-            <p>Cardapio</p>
+            <div>
+                <h2>Cardapio</h2>
+                <p>As opções mais famosas do Menu.</p>
+
+                <div>
+                    <!-- ITEM 1-->
+                    <article>
+                        <figure>
+                            <img width="470" height="300" src="img/pizza 1.jpg"
+                            alt="Pizza de Margherita" />
+                            
+                        </figure>
+                        <h3>Pizza de Margherita.</h3>
+                        <p> Molho de tomate, mussarela e manjericão fresco.</p>
+                        <span>R$ 39,00.</span>
+                    </article>
+
+                    <!-- ITEM 2-->
+                    <article>
+                        <figure>
+                            <img width="470" height="300" src="img/pizza 2.jpg" 
+                            alt="Pizza de Pepperoni"/>
+                        </figure>
+                        <h3>Pizza de Pepperoni.</h3>
+                        <p> Molho de tomate, mussarela e pepperoni.</p>
+                        <span>R$ 59,00.</span>
+                    </article>
+
+                    <!-- ITEM 3-->
+                    <article>
+                        <figure>
+                            <img width="470" height="300" src="img/pizza 3.jpg" 
+                            alt="Pizza de calabresa"/>
+                        </figure>
+                        <h3>Pizza de Calabresa.</h3>
+                        <p> Molho de tomate, mussarela, calabresa e cebola frita.</p>
+                        <span>R$ 29,00.</span>
+                    </article>
+
+                    <!-- ITEM 4-->
+                    <article>
+                        <figure>
+                            <img width="470" height="300" src="img/pizza 4.png" 
+                            alt="Pizza de Mussarela"/>
+
+                        </figure>
+                        <h3>Pizza de Mussarela.</h3>
+                        <p> Molho de tomate, mussarela e oregano</p>
+                        <span>R$ 59,00.</span>
+                    </article>
+
+                    <!-- ITEM 5-->
+                    <article>
+                        <figure>
+                            <img width="470" height="300" src="img/pizza 5.jpg" 
+                            alt="Pizza de frango"/>
+                        </figure>
+                        <h3>Pizza de Frango.</h3>
+                        <p> Molho de tomate, frango desfiado e catupiry.</p>
+                        <span>R$ 49,00.</span>
+                    </article>
+
+                    <!-- ITEM 6-->
+                    <article>
+                        <figure>
+                            <img width="470" height="300" src="img/pizza 6.jpg" 
+                            alt="Pizza portuguesa"/>
+                        </figure>
+                        <h3>Pizza Portuguesa.</h3>
+                        <p> Molho de tomate, mussarela, pimentão, champinhon, tomate e calabresa.</p>
+                        <span>R$ 49,00.</span>
+                    </article>
+                </div>
+            </div>
         </section>
 
         <section id="Contato">
-            <p>Contato</p>
+            <div>
+                <h3>Fale Conosco!</h3>
+                <form>
+                    <label>
+                        Nome:
+                        <input type="text" placeholder="Digite seu nome completo..." name="nome" required/>
+                    </label>
+                    <label>
+                        Telefone:
+                        <input type="tel" placeholder="(11) 91111-1111" name="telefone" required/>
+                    </label>
+                    <label>
+                        Mensag,:
+                        <textarea name="mensagem" placeholder="Escreva sua mensagem..." rows="5"></textarea>
+                    </label>
+                    <input type="submit" name="enviar"/>
+                </form>
+            </div>
         </section>
     </main>
 
 </body>
+
 </html>

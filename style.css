@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'fredoka', system-ui, arial, sans-serif; 
+    color: #222;
+    background: #fffdf6;
+    line-height: 1.6;
+}
